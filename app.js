@@ -15,16 +15,16 @@ for(let i =1;i<=amo;i++){
             let answ1 = que1==(one + two) ? ('Ваш ответ верный - '+que1) : "Ваш ответ не верный - "+que1+". Правильный ответ - "+(one + two);
             console.log(answ1);break;
         case 2:
-            let que2 = +prompt(one +'+'+ two);
-            let answ2 = que2==(one + two) ? ('Ваш ответ верный - '+que2) : "Ваш ответ не верный - "+que2+". Правильный ответ - "+(one + two);
+            let que2 = +prompt(one +'-'+ two);
+            let answ2 = que2==(one - two) ? ('Ваш ответ верный - '+que2) : "Ваш ответ не верный - "+que2+". Правильный ответ - "+(one - two);
             console.log(answ2);break;
         case 3:
-            let que3 = +prompt(one +'+'+ two);
-            let answ3 = que3==(one + two) ? ('Ваш ответ верный - '+que3) : "Ваш ответ не верный - "+que3+". Правильный ответ - "+(one + two);
+            let que3 = +prompt(one +'*'+ two);
+            let answ3 = que3==(one * two) ? ('Ваш ответ верный - '+que3) : "Ваш ответ не верный - "+que3+". Правильный ответ - "+(one * two);
             console.log(answ3); break;  
         case 4:
-            let que4 = +prompt(one +'+'+ two);
-            let answ4 = que4==(one + two) ? ('Ваш ответ верный - '+que4) : "Ваш ответ не верный - "+que4+". Правильный ответ - "+(one + two);
+            let que4 = +prompt(one +'/'+ two);
+            let answ4 = que4==(one / two) ? ('Ваш ответ верный - '+que4) : "Ваш ответ не верный - "+que4+". Правильный ответ - "+(one / two);
             console.log(answ4);break;
     }
 }
